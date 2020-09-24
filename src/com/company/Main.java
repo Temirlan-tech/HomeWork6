@@ -9,12 +9,13 @@ public class Main {
         boss.setDamage("Magical");
         boss.setSuperpower("Fly");
 
-
         Weapon gun = new Weapon();
+        gun.setName("Gun");
+        gun.setType("pistol");
 
 
         System.out.println(boss.getHealth() + " " + boss.getDamage() + " " +
-                boss.getSuperpower() + " " + boss.getWeapon());
+                boss.getSuperpower() + " " + gun.getName() + " " + gun.getType());
 
     }
 
